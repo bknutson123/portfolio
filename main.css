@@ -1,7 +1,62 @@
-.navagation-default {
-    background-color: blue
+body {
+  margin: 25px;
 }
-
+#body-contact {
+    background-color: mediumturquoise;
+}
+#body-work {
+    background-color: lightcyan;
+}
+#body-projects {
+    background-color: springgreen;
+}
+#body-main {
+    background-color: lightblue;
+}
+#dancing-img {
+    width: 500px;
+    margin-bottom: 225px;
+    margin-left: 40px;
+    
+}
+#boating-img {
+    height: 500px;
+    
+}
+#waterfall-img {
+    margin-top: 65px;
+    float: right;
+    position: absolute;
+    transform: rotate(90deg);
+    width: 500px;
+}
 .navbar-nav {
     float:right;
 }
+.contactinfo {
+    text-align: center;
+}
+#links {
+    text-align: center;
+    color: black;
+}
+#button {
+    position: relative;
+    margin-left: 30%;
+    bottom: 250px;
+    background-color: blue;
+    color: white;
+}
+#facts {
+    position: relative;
+    margin-left: 30%;
+    bottom: 250px;
+}
+#button-text {
+    position: relative;
+    margin-left: 30%;
+    bottom: 250px;
+    margin-top: 50px;
+}
+
+
