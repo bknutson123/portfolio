@@ -8,20 +8,34 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="main.css">
     </head>
-    <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container-fluid">
-            <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Portfolio</a>
+    <header id="nav-item">
+        <nav id="mainNav" class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" id="page-top-link" href="index.html">Ben Knutson</a>
             </div>
-                <ul class="nav navbar-nav">
-                  <li><a href="workExperience.html">Work Experience</a></li>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden"><a href="index.html"></a></li>
+                    <li><a href="workExperience.html">Work Experience</a></li>
                   <li><a href="projects.html">Projects</a></li>
                   <li><a href="contact.html">Contact</a></li>
+                    
                 </ul>
             </div>
-        </nav>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
     </header>
+    
     
     <body id="body-main"><br><br>
         <Title>Portfolio</Title>
@@ -29,14 +43,14 @@
         <br><h2></h2>
         <p>I am 22 years old and attending Brigham Young University working to graduate with a bachelors degree 
         in computer science. I have been married now for a year and my wife and I are expecting a little girl
-        in October. I enjoy activities outdoors such as hiking, skiing, boating, and fishing. I love reading non-fiction 
+        in October. I enjoy outdoor activities such as hiking, skiing, boating, and fishing. I love reading non-fiction 
         books and learning new things whenever I can. I am seeking a job in computer software because I love the innovative and creative 
         aspect involved in this field.</p>
         <h2>Accomplishments:</h2>
         <ul>
             <li>AWS certified Solutions Architect</li>
-            <li>fluent in Spanish</li>
-            <li>served an LDS mission for 2 years in Antofagasta, Chile</li>
+            <li>Fluent in Spanish</li>
+            <li>Served an LDS mission for 2 years in Antofagasta, Chile</li>
             <li>Eagle Scout</li>
 
         </ul>
@@ -45,12 +59,11 @@
         <img id="waterfall-img" src=images/waterfall.JPG>
         <p id="button-text">Here are some interesting facts about myself:</p>
         <button id="button" type="button" onclick="printfact()" CLASS="BTN BTN-PRIMARY">GET FACTS</button>
-        
         <p id="facts"></p>
         <script>
     var listOfFacts = ["I recently completed a part triathalon.", 
-                       "This summer my wife and I went kayaking down the colorado river.", 
-                       "When I was still living at home my dad and I built a shed in our backyard.",
+                       "This summer my wife and I went kayaking down the Colorado River.", 
+                       "When I was still living at home, my dad and I built a shed in our backyard.",
                        "I've conducted classes in English as a second language,<br/> addiction recovery, and wellness maintenance."];
     function printfact() {
         var randNum = Math.floor(Math.random() * 4);

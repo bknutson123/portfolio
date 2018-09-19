@@ -1,5 +1,5 @@
 body {
-  margin: 25px;
+  margin: 2%;
 }
 #body-contact {
     background-color: mediumturquoise;
@@ -14,25 +14,23 @@ body {
     background-color: lightblue;
 }
 #dancing-img {
-    width: 500px;
-    margin-bottom: 225px;
-    margin-left: 40px;
-    
+    width: 35%;
+    margin-bottom: 25%;
 }
 #boating-img {
-    height: 500px;
-    
+    width: 30%;
 }
 #waterfall-img {
-    margin-top: 65px;
-    float: right;
-    position: absolute;
-    transform: rotate(90deg);
-    width: 500px;
+    width: 30%;
+    margin-bottom: 5%;
+    
 }
+
 .navbar-nav {
     float:right;
 }
+
+
 .contactinfo {
     text-align: center;
 }
@@ -42,21 +40,25 @@ body {
 }
 #button {
     position: relative;
-    margin-left: 30%;
-    bottom: 250px;
+    margin-left: 35%;
+    bottom: 50%;
     background-color: blue;
     color: white;
 }
-#facts {
-    position: relative;
-    margin-left: 30%;
-    bottom: 250px;
-}
+
 #button-text {
     position: relative;
-    margin-left: 30%;
-    bottom: 250px;
-    margin-top: 50px;
+    margin-left: 35%;
+    bottom: 50%;
+}
+#facts {
+    margin-left: 35%;
+}
+
+#name {
+    font-size: 200%;
+    color: white;
+    right: 70%;
 }
 
 
